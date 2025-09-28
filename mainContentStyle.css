@@ -1,0 +1,217 @@
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.main{
+    height: 100%;
+    width: 62%;
+    /* border: 2px solid black; */
+}
+.title{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.365);
+}
+#titleName{
+    font-weight: 400;
+    font-size: 29px;
+    color: rgb(16, 20, 24);
+    line-height: 40px;
+}
+.languageBox{
+    display: flex;
+    /* border: 2px solid blue; */
+    align-items: center;
+    height: 70%;
+    width: 190px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 6%;
+}
+#languageIcon{
+    font-size: 27px;
+    color: rgb(68, 68, 235);
+}
+#languageName{
+    font-size: 20px;
+    color: rgb(68, 68, 235);
+    font-weight: 500;
+}
+#languagedropDownIcon{
+    font-size: 25px;
+    color: rgb(68, 68, 235);
+}
+.languageBox:hover{
+    cursor: pointer;
+    background-color: #32079f24;
+    transition: 0.2s ease-in-out;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.functionality{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 40px;
+    gap: 57%;
+    align-items: center;
+}
+
+.articalAndTalk{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.articalAndTalk,.fun{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articalSpan{
+    font-size: 14px;
+}
+.talkSpan,.editSpan,.viewHistorySpan{
+    color: rgb(43, 43, 235);
+}
+.artical,.talk{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 40px;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    gap: 45%;
+}
+.underline_artical_div,.underline_read_div,.underline_viewHistory_div{
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.623);
+    height: 0.4px;
+    border-radius: 4px;
+}
+.underline_talk_div,.underline_edit_div,.underline_viewHistory_div{
+    width: 100%;
+    height: 0.4px;
+    border-radius: 4px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.623);
+    display: none;
+}
+
+.talk:hover .underline_talk_div{
+    display: inline;
+}
+.talk:hover{
+    cursor: pointer;
+}
+.fun{
+    display: flex;
+    width: 348px;
+    /* border: 2px solid black; */
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid rgb(69, 126, 72); */
+    height: 90%;
+    width: 74px;
+}
+.tools:hover{
+    background-color: rgba(0, 0, 0, 0.176);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.rev{
+    display: flex;
+    align-items: center;
+    width: 77%;
+    /* border: 2px solid red; */
+    height: 100%;
+    gap: 10%;
+}
+.read,.edit{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 40px;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    gap: 45%;
+}
+.viewHistory{
+    /* border: 2px solid black; */
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 40px; */
+    gap: 45%;
+
+}
+
+.underline_artical_div,.underline_talk_div,.underline_read_div,.underline_edit_div,.underline_viewHistory_div,.toolSpan{
+    font-family: sans-serif;
+    font-weight: 400;
+    font: 14px;
+}
+
+.edit:hover .underline_edit_div{
+    display: inline;
+}
+.edit:hover{
+    cursor: pointer;
+}
+
+.viewHistory:hover .underline_viewHistory_div{
+    display: inline;
+}
+.viewHistory:hover{
+    cursor: pointer;
+}
+.fromWikipediaSpan{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(32, 33, 34);
+    line-height: 39px;
+}
+
+.peacockSpan{
+    font-style: italic;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 26px;
+    color: rgb(32, 33, 34);
+    font-size: 16px;
+    padding-left: 30px;
+}
+.lineTwoAnchor1,.lineTwoAnchor2{
+    text-decoration: none;
+    color: rgb(48, 86, 169);
+}
+
+:is(.lineTwoAnchor1, .lineTwoAnchor2, .bdLink):hover{
+    text-decoration: underline;
+}

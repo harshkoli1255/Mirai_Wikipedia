@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mainContent{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.textContentParent{
+    width: 69%;
+    padding: 2px;
+    flex-direction: column;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.textContent{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 2px;
+}
+.para1,.para,.para1_letter1{
+    padding-top: 20px;
+    font-family: sans-serif;
+    line-height: 26px;
+    color: rgb(32, 33, 34);
+    font-size: 16px;
+}
+
+.para1,.para2{
+    font-weight: 400;
+}
+.para1_letters{
+    font-weight: 700;
+}
+
+.normalAndLink{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(48, 86, 169);
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.normalAndLink:hover{
+    text-decoration: underline;
+}
+.italicAndLink{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(48, 86, 169);
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.italicAndLink:hover{
+    text-decoration: underline;
+}
+
+.textContentTitleParent{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1.7px solid rgba(0, 0, 0, 0.392);
+    display: flex;
+    gap: 1.8%;
+    align-items: center;
+    margin-top: 24px;
+    padding-bottom: 7px;
+}
+.textContentTitleSpan{
+    font-family: "Linux Libertine", Georgia, Times, "Source Serif 4", serif;
+    font-weight: 400;
+    color: rgb(16, 20, 24);
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.discriptionContentParas{
+    width: 100%;
+}
+.textContentTitleEditSpan:hover,.subTopicContentTitleEditSpan:hover{
+    text-decoration: underline;
+}
+
+.textContentTitleEditSpan::before,.subTopicContentTitleEditSpan::before{
+    content: '[ ';
+}
+.textContentTitleEditSpan::after,.subTopicContentTitleEditSpan::after{
+    content: ' ]';
+}
+
+.subTopicContentTitleParent{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 1.8%;
+    align-items: center;
+    /* margin-top: 24px; */
+    padding-bottom: 7px;
+}
+
+
+
+.subTopicContentTitleSpan{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(16, 20, 24);
+    font-size: 19px;
+    line-height: 31px;
+}
+
+.subTopicContentTitleSmallSpan{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(16, 20, 24);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sparah{
+    /* padding-top: 2px; */
+    font-family: sans-serif;
+    line-height: 26px;
+    color: rgb(32, 33, 34);
+    font-size: 16px;
+}
+
+.spara{
+    /* padding-top: 10px; */
+    font-family: sans-serif;
+    line-height: 26px;
+    color: rgb(32, 33, 34);
+    font-size: 16px;
+}
+
+.martop24px{
+    margin-top: 24px;
+}
+.padtop10px{
+    padding-top: 10px;
+}
+
+.padleft30px{
+    padding-left: 30px;
+}
+
+.imageContent{
+    /* border: 2px solid rgb(34, 208, 144); */
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+}
+
+.h120px{
+    height: 120px;
+}
+.h40px{
+    height: 40px;
+}
+.h60px{
+    height: 60px;
+}
+
+.infoBox{
+    margin-top: 15px;
+    /* border: 2px solid black; */
+    width: 95%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #eaead3;
+}
+
+.martop0px{
+    margin-top: 0px;
+}
+
+.infoNameSpan{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(32, 33, 34);
+    font-size: 16px;
+}
+.infoRangeSpan{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(32, 33, 34);
+    font-size: 14px;
+}
+.infoPlioceneSpan{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(32, 33, 34);
+    font-size: 12px;
+    line-height: 24px;
+}
+.peaImage1{
+    /* height: 163.5px; */
+    height: 157.5px;
+    width: 95%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.479);
+}
+#peaImage1{
+    height: 100%;
+    width: 100%;
+}
+.fontsize14px{
+    font-size: 14px;
+}
+
+.PeaTable{
+    width: 95%;
+    height: 300px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+}
+
+.col1 span{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.col2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+}
+
+.peacoGrouplinks{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 60px;
+    /* border: 2px solid black; */
+}
+
+.peacoGrouplinks ul{
+    margin-left: 20px;
+}
+
+.infoOneBox{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.886);
+    height: 900px;
+    gap: 1%;
+    width: 98%;
+    background-color: #f8f9fa;
+}
+
+.imageandText_Div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 155px;
+    width: 274px;
+    padding: 5px;
+    /* background-color: #f8f9fa; */
+}
+.image{
+    display: flex;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.145); */
+    border: 0.4px solid rgba(0, 0, 0, 0.237);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 29%;
+}
+
+.imgpea{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 258px;
+}
+
+.peadfirstimgeSpan{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

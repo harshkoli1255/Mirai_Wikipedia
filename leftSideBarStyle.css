@@ -1,0 +1,148 @@
+.leftSideBar{
+    height: 0%;
+    width: 21%;
+    /* border: 2px solid black; */
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 2rem;
+    align-items: start;
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.7px solid rgba(117, 114, 114, 0.471);
+    padding: 8px 0px;
+    width: 200px;
+    /* border: 2px solid black; */
+    gap: 10%;
+    margin-left: 54px;
+}
+#contents{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(16, 20, 24);
+}
+
+#hide{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(32, 33, 34);
+    padding: 4px;
+    background-color: rgb(196, 202, 207);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-right: 40px;
+}
+
+#hide:hover{
+    cursor: pointer;
+    background: none;
+    transition: 0.1s ease-in-out;
+}
+
+#textTop{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(32, 33, 34);
+}
+
+.top{
+    padding: 6px 0;
+    margin-left: 54px;;
+}
+#textTop{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    /* border: 2px solid black; */
+    gap: 2%;
+    align-items: center;
+    margin-left: 25px;
+}
+.dropdownIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 2px;
+    width: 24px;
+    height: 25px;
+}
+.dropdownIcon:hover{
+    background-color: rgba(0, 0, 0, 0.227);
+    cursor: pointer;
+}
+#dropDownIcon{
+    color: rgb(19 18 18 / 86%);
+    font-size: 20px;
+    transform: rotate(-90deg);
+}
+#desc{
+    text-decoration: none;
+    color: rgb(48, 86, 169);
+}
+#desc:hover{
+    text-decoration: underline;
+}
+.decsLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 13%;
+    height: 106px;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-left: 62px;
+    margin-top: 6px;
+}
+.IAndStructuralColoration{
+    width: 65%;
+}
+.dLinks,.evolutionLink,.bdLink{
+    font-weight: 400;
+    color: rgb(48, 86, 169);
+    font-size: 14px;
+    line-height: normal;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+:is(.dLinks, .evolutionLink, .bdLink):hover{
+    text-decoration: underline;
+}
+.insideEvolution{
+    display: flex;
+    gap: 6%;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 185px;
+    width: 76%;
+    margin-left: 75px;
+    margin-top: 4px;
+}
+.AposematismAndNaturalSelection{
+    width: 114px;
+}
+.PlumageColoursAsAttractants{
+    width: 127px;
+}
+
+.bdlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 23%;
+    height: 54px;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}

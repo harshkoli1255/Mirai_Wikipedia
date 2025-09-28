@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peafowl - Wikipedia</title>
+    <link rel="stylesheet" href="navBarStyle.css">
+    <link rel="stylesheet" href="leftSideBarStyle.css">
+    <link rel="stylesheet" href="mainContentStyle.css">
+    <link rel="stylesheet" href="mainContentTextAndImageStyle.css">
+    <link rel="stylesheet" href="rightSideBarStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="child1">
+            <div class="menu">
+                <i class="fa-solid fa-bars" id="menuIcon"></i>
+            </div>
+
+            <div class="nameAndSearchContainer">
+                <div class="logoname">
+                    <div class="logo">
+                        <img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" alt="" id="wikipediaLogo">
+                    </div>
+                    <div class="wikipediaName">
+                        <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="" id="wikipediaName">
+                        <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg" alt="" id="wikipediaBottomName">
+                    </div>
+                </div>
+                <div class="searchbar">
+                    <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                    <input type="text" placeholder="Search Wikipedia" id="searchBar">
+                    <button type="submit" id="searchButton">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="child2">
+            <a href="#" id="donate">Donate</a>
+            <a href="#" id="createAccount">Create account</a>
+            <a href="#" id="login">Log in</a>
+            <i class="fa-solid fa-ellipsis" id="ellipsisIcon"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="leftSideBar">
+            <div class="contents">
+                <span id="contents">Contents</span>
+                <span id="hide">hide</span>
+            </div>
+            <div class="top">
+                <span id="textTop">(Top)</span>
+            </div>
+            <div class="description">
+                <div class="dropdownIcon">
+                     <i class="fa-solid fa-angle-down" id="dropDownIcon"></i>
+                </div>
+                <a href="#discriptionContent" id="desc">Description</a> 
+            </div>
+            <div class="insideDesc">
+                <div class="decsLinks">
+                    <div class="IAndStructuralColoration">
+                        <a href="#subTopicnContent" id="decsLink1" class="dLinks">Iridescence and structural coloration</a>
+                    </div>
+                    <a href="#subTopicnContentCourtship" id="decsLink2" class="dLinks">Courtship</a>
+                    <a href="#subTopicnContentEvolution" id="decsLink3" class="dLinks">Evolution</a>
+                </div>
+                <div class="insideEvolution">
+                    <a href="#subTopicnContentSexualSelection" id="insideEvolutionLink1" class="evolutionLink">Sexual selection</a>
+                    <div class="AposematismAndNaturalSelection">
+                        <a href="#subTopicnContentAposematismandnaturalselection" id="insideEvolutionLink2" class="evolutionLink">Aposematism and natural selection</a>
+                    </div>
+                    <a href="#" id="insideEvolutionLink3" class="evolutionLink">Female choice</a>
+                    <div class="PlumageColoursAsAttractants">
+                        <a href="#" id="insideEvolutionLink4" class="evolutionLink">Plumage colours as attractants</a>
+                    </div>
+                    <div class="RedundantSignalHypothesis">
+                        <a href="#" id="insideEvolutionLink5" class="evolutionLink">Redundant signal hypothesis</a>
+                    </div>
+                </div>
+                <div class="bdlinks">
+                    <a href="#" id="BehaviourLink" class="bdLink">Behaviour</a>
+                    <a href="#" id="DietLink" class="bdLink">Diet</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="main">
+            <div class="content">
+                <div class="title">
+                    <div class="titleName">
+                        <span id="titleName">Peafowl</span>
+                    </div>
+                    <div class="languageBox">
+                        <div class="language">
+                             <i class="fa-solid fa-language" id="languageIcon"></i>
+                             <span id="languageName">66 language</span>
+                        </div>
+                        <div class="languagedropDown">
+                            <i class="fa-solid fa-angle-down" id="languagedropDownIcon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="functionality">
+                    <div class="articalAndTalk">
+                        
+                        <div class="artical">
+                            <span id="articalSpan">Artical</span>
+                            <div class="underline_artical_div"></div>
+                        </div>
+
+                        <div class="talk">
+                            <span class="talkSpan">Talk</span>
+                            <div class="underline_talk_div"></div>
+                        </div>
+                    </div>
+                    <div class="fun">
+                        <div class="rev">
+                            <div class="read">
+                                <span class="readSpan">Read</span>
+                                <div class="underline_read_div"></div>
+                            </div>
+                            <div class="edit">
+                                <span class="editSpan">Edit</span>
+                                <div class="underline_edit_div"></div>
+                            </div>
+                            <div class="viewHistory">
+                                <span class="viewHistorySpan">View History</span>
+                                <div class="underline_viewHistory_div"></div>
+                            </div>
+                        </div>
+                        <div class="tools">
+                            <span class="toolSpan">Tools</span>
+                            <i class="fa-solid fa-chevron-down" id="toolDownIcon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="fromWikipediaSpan">From Wikipedia, the free encyclopedia</span>
+                <span class="peacockSpan">"Peacock" redirects here. For the streaming service, see <a href="#" class="lineTwoAnchor1">Peacock (streaming service).</a> For other uses, see <a href="#" class="lineTwoAnchor2">Peacock (disambiguation).</a></span>
+
+                <div class="mainContent">
+                    <div class="textContentParent">
+                        <div class="textContent">
+                            <p class="para para1">
+                                <span class="para1_letters">Peafowl</span> is a common name for two bird species of the genus <a href="#" class="italicAndLink">Pavo</a> and one species of the closely related genus <a href="#" class="italicAndLink">Afropavo</a> within the tribe <a href="#" class="normalAndLink">Pavonini</a> of the family <a href="#" class="normalAndLink">Phasianidae</a> (the pheasants and their allies). Male peafowl are referred to as <span class="para1_letters">peacocks,</span> and female peafowl are referred to as <span class="para1_letters">peahens.</span>
+                            </p>
+                            <p class="para para2">
+                                The two Asiatic species are the blue or <a href="#" class="normalAndLink">Indian peafowl</a> originally from the <a href="#" class="normalAndLink">Indian subcontinent,</a> and the <a href="#" class="normalAndLink">green peafowl</a> from Southeast Asia. The third peafowl species, the <a href="#" class="normalAndLink">Congo peafowl,</a> is native only to the  <a href="#" class="normalAndLink">Congo Basin.</a> Male peafowl are known for their piercing calls and their extravagant plumage. The latter is especially prominent in the Asiatic species, which have an eye-spotted "tail" or "train" of  <a href="#" class="normalAndLink">covert feathers,</a> which they display as part of a <a href="#" class="normalAndLink">courtship</a>  ritual.
+                            </p>
+                            <p class="para para3">
+                                The functions of the elaborate <a href="#" class="normalAndLink">iridescent</a> coloration and large "train" of peacocks have been the subject of extensive scientific debate. <a href="#" class="normalAndLink">Charles Darwin</a> suggested that they served to attract females, and the showy features of the males had evolved by <a href="#" class="normalAndLink">sexual selection.</a> More recently, <a href="#" class="normalAndLink">Amotz Zahavi</a> proposed in his <a href="#" class="normalAndLink">handicap principle</a> that these features acted as <a href="#" class="normalAndLink">honest signals</a> of the males' fitness, since less-fit males would be disadvantaged by the difficulty of surviving with such large and conspicuous structures.
+                            </p>
+                        </div>
+                        
+                        <div class="discriptionContent textContentTitleParent" id="discriptionContent">
+                            <div class="discritionTitle textContentTitle">
+                                <span class="textContentTitleSpan">Description</span>
+                            </div>
+                            <div class="textContentTitleEdit">
+                                <a href="#" class="textContentTitleEditSpan">edit</a>
+                            </div>
+                        </div>
+    
+                        <div class="discriptionContentParas">
+                            <p class="dpara1 para">
+                                The Indian peacock (<i>Pavo cristatus</i>) has iridescent blue and green plumage, mostly metal-like blue and green. In both species, females are a little smaller than males in terms of weight and wingspan, but males are significantly longer due to the "tail", also known as a "train". <sup><a href="#" class="normalAndLink">[1]</a></sup> The peacock train consists not of tail quill feathers but highly elongated upper tail coverts. These feathers are marked with eyespots, best seen when a peacock fans his tail. All species have a crest atop the head. The Indian peahen has a mixture of dull grey, brown, and green in her plumage. The female also displays her plumage to ward off female competition or signal danger to her young.
+                            </p>
+                            <p class="dpara2 para">
+                                Male <a href="#" class="normalAndLink">green peafowls</a> <i>(Pavo muticus)</i> have green and bronze or gold plumage, and black wings with a sheen of blue. Unlike Indian peafowl, the green peahen is similar to the male, but has shorter upper tail coverts, a more coppery neck, and overall less iridescence. Both males and females have spurs.<sup><a href="#" class="normalAndLink">[2][page needed]</a></sup>
+                            </p>
+                            <p class="dpara3 para">
+                                The <a href="#" class="normalAndLink">Congo peacock</a> <i>(Afropavo congensis)</i> male does not display his covert feathers, but uses his actual tail feathers during courtship displays. These feathers are much shorter than those of the Indian and green species, and the ocelli are much less pronounced. Females of the Indian and African species are dull grey and/or brown.
+                            </p>
+                            <p class="dpara4 para">
+                                Chicks of both sexes in all the species are cryptically colored. They vary between yellow and tawny, usually with patches of darker brown or light tan and "dirty white" ivory.
+                            </p>
+                            <p class="dpara5 para">
+                                Mature peahens have been recorded as suddenly growing typically male peacock plumage and making male calls.<sup><a href="#" class="normalAndLink">[3]</a></sup> Research has suggested that changes in mature birds are due to a lack of estrogen from old or damaged ovaries, and that male plumage and calls are the default unless hormonally suppressed.<sup><a href="#" class="normalAndLink">[4]</a></sup>
+                            </p>
+                        </div>
+
+                        <div class="subTopicnContent subTopicContentTitleParent martop24px" id="subTopicnContent">
+                            <div class="subTopicTitle subTopicContentTitle">
+                                <span class="subTopicContentTitleSpan">Iridescence and structural coloration</span>
+                            </div>
+                            <div class="subTopicContentTitleEdit">
+                                <a href="#" class="subTopicContentTitleEditSpan">edit</a>
+                            </div>
+                        </div>
+
+                        <div class="subTopicContentParas">
+                            <p class="spara1 sparah padl30">
+                                <i>Further information:</i> <a href="#" class="italicAndLink">Iridescence</a> and <a href="#" class="italicAndLink">Structural colouration</a>
+                            </p>  
+                            <p class="spara2 spara padtop10px">
+                                As with many birds, vibrant iridescent plumage colors are not primarily <a href="#" class="normalAndLink">pigments,</a> but <a href="#" class="normalAndLink">structural coloration.</a> Optical <a href="#" class="normalAndLink">interference</a> of <a href="#" class="normalAndLink">Bragg reflections,</a> from regular, periodic nanostructures of the <a href="#" class="normalAndLink">barbules</a> (fiber-like components) of the feathers, produce the peacock's colors. <sup><a href="#" class="normalAndLink">[5]</a></sup> Slight changes to the spacing of the barbules result in different colors. Brown feathers are a mixture of red and blue: one color is created by the periodic structure and the other is created by a <a href="#" class="normalAndLink">Fabry–Pérot interference</a> peak from reflections from the outer and inner boundaries. Color derived from physical structure rather than pigment can vary with viewing angle, causing iridescence.<sup><a href="#" class="normalAndLink">[6]</a></sup>
+                            </p>  
+                        </div>
+                        
+                        <div class="subTopicnContent subTopicContentTitleParent martop24px" id="subTopicnContentCourtship">
+                            <div class="subTopicTitle subTopicContentTitle">
+                                <span class="subTopicContentTitleSpan">Courtship</span>
+                            </div>
+                            <div class="subTopicContentTitleEdit">
+                                <a href="#" class="subTopicContentTitleEditSpan">edit</a>
+                            </div>
+                        </div>
+
+                        <div class="subTopicContentParas">
+                            <p class="courtshipPara3 spara">
+                                Most commonly, during a courtship display, the visiting peahen will stop directly in front of the peacock, thus providing her with the ability to assess the male at 90° to the surface of the feather. Then, the male will turn and display his feathers about 45° to the right of the sun's azimuth which allows the sunlight to accentuate the iridescence of his train. If the female chooses to interact with the male, he will then turn to face her and shiver his train so as to begin the mating process. <sup><a href="#" class="normalAndLink">[7]</a></sup>
+                            </p> 
+                        </div>
+                        
+                        
+                        <div class="subTopicnContent subTopicContentTitleParent martop24px" id="subTopicnContentEvolution">
+                            <div class="subTopicTitle subTopicContentTitle">
+                                <span class="subTopicContentTitleSpan">Evolution</span>
+                            </div>
+                            <div class="subTopicContentTitleEdit">
+                                <a href="#" class="subTopicContentTitleEditSpan">edit</a>
+                            </div>
+                        </div>
+                        
+                        <div class="subTopicnContent subTopicContentTitleParent" id="subTopicnContentSexualSelection">
+                            <div class="subTopicTitle subTopicContentTitle">
+                                <span class="subTopicContentTitleSpan subTopicContentTitleSmallSpan">Sexual selection</span>
+                            </div>
+                            <div class="subTopicContentTitleEdit">
+                                <a href="#" class="subTopicContentTitleEditSpan">edit</a>
+                            </div>
+                        </div>
+
+                        <div class="subTopicContentParas">
+                            <p class="courtshipPara3 spara">
+                                <a href="#" class="normalAndLink">Charles Darwin</a> suggested in <a href="#" class="italicAndLink">The Descent of Man and Selection in Relation to Sex</a> that peafowl plumage may have evolved through <a href="#" class="normalAndLink">sexual selection:</a> 
+                            </p> 
+                            
+                            <p class="spara1 spara padtop10px padleft30px">
+                                Many female progenitors of the peacock must, during a long line of descent, have appreciated this superiority; for they have unconsciously, by the continued preference for the most beautiful males, rendered the peacock the most splendid of living birds. 
+                            </p> 
+                        </div>
+
+                        <div class="subTopicnContent subTopicContentTitleParent martop24px" id="subTopicnContentAposematismandnaturalselection">
+                            <div class="subTopicTitle subTopicContentTitle">
+                                <span class="subTopicContentTitleSpan subTopicContentTitleSmallSpan">Aposematism and natural selection</span>
+                            </div>
+                            <div class="subTopicContentTitleEdit">
+                                <a href="#" class="subTopicContentTitleEditSpan">edit</a>
+                            </div>
+                        </div>
+
+                        <div class="subTopicContentParas">
+                            <p class="spara1 spara">
+                                It has been suggested that a peacock's train, loud call, and fearless behavior have been formed by natural selection (with or without sexual selection too), and served as an <a href="#" class="normalAndLink">aposematic</a> display to intimidate predators and rivals. <sup><a href="#" class="normalAndLink">[8][9]</a></sup> This hypothesis is designed to explain Takahashi's observations that in Japan, neither reproductive success nor physical condition correlate with the train's length, symmetry or number of eyespots.<sup><a href="#" class="normalAndLink">[10]</a></sup>
+                            </p> 
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="imageContent">
+                        <div class="infoOneBox">
+                            <div class="infoBox h120px" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.069);">
+                                <span class="infoNameSpan ">Peafowl</span>
+                                <span class="infoRangeSpan">Temporal range: 3–0 <a href="#" class="normalAndLink">Ma</a></span>
+                                <span class="infoPlioceneSpan">Late <a href="#">Pliocene</a> – present</span>
+                            </div>
+                            <div class="peaImage1">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/500px-Peacock_Plumage.jpg" alt="" id="peaImage1">
+                                <span class="aboutPeaImage fontsize14px"><a href="#" class="normalAndLink fontsize14px">Indian peacock</a> displaying his train</span>
+                            </div>
+                            <div class="infoBox h40px" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.069);">
+                                <span class="infoNameSpan"><a href="#" class="normalAndLink" style="color: #25559e;">Scientific classification</a></span>
+                            </div>
+                            
+                            <div class="PeaTable">
+                                <div class="col1">
+                                    <span>Kingdom:</span>
+                                    <span>Phylum:</span>
+                                    <span>Class:</span>
+                                    <span>Order:</span>
+                                    <span>Family:</span>
+                                    <span>Subfamily:</span>
+                                    <span>Tribe:</span>
+                                </div>
+                                <div class="col2">
+                                    <span><a href="#" class="normalAndLink">Animalia</a></span>
+                                    <span><a href="#" class="normalAndLink">Chordata</a></span>
+                                    <span><a href="#" class="normalAndLink">Aves</a></span>
+                                    <span><a href="#" class="normalAndLink">Galliformes</a></span>
+                                    <span><a href="#" class="normalAndLink">Phasianidae</a></span>
+                                    <span><a href="#" class="normalAndLink">Phasianinae</a></span>
+                                    <span><a href="#" class="normalAndLink">Pavonini</a></span>
+                                </div>
+                            </div>
+                            
+                            <div class="infoBox h40px martop0px" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.069);">
+                                <span class="infoNameSpan">Groups included</span>
+                            </div>
+                            
+                            <div class="peacoGrouplinks">
+                                <ul>
+                                    <li><a href="#" class="italicAndLink">Pavo</a></li>
+                                    <li><a href="#" class="italicAndLink">Afropavo</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="infoBox h60px martop0px" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.069);">
+                                <span class="infoNameSpan" style="text-align: center;"><a href="#" class="normalAndLink">Cladistically</a> included but traditionally excluded taxa</span>
+                            </div>
+    
+                            <div class="peacoGrouplinks">
+                                <ul>
+                                    <li><a href="#" class="italicAndLink">Rheinardia</a></li>
+                                    <li><a href="#" class="italicAndLink">Argusianus</a></li>
+                                </ul>
+                            </div>
+
+
+                            
+                        </div>
+                        <div class="imageandText_Div">
+                            <div class="image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Magnificent_Peafowl.jpg/500px-The_Magnificent_Peafowl.jpg" alt="" class="imgpea">
+                            </div>
+                            <span class="peadfirstimgeSpan">A peacock spreading his tail, displaying his plumage</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- settings -->
+        <div class="settingsParent">
+            <div class="settings settingsAppearance">
+                <span class="settings1 rightSideBarAppearanceSpan">Appearance</span>
+                <span class="settings2 rightSideBarhideSpan">hide</span>
+            </div>
+            <div class="settings settingsText">
+                <span class="settings1 rightSideBarTextSpan">Text</span>
+            </div>
+            <div class="settingsRadio">
+                <div class="TextSmallRadioDiv radioDiv">
+                    <input type="radio" class="radiosmallInput radioInput" name="textSize">
+                    <label for="">
+                        <span class="radioInputSpan">Small</span>
+                    </label>
+                </div>
+                <div class="TextStandardRadioDiv radioDiv">
+                    <input type="radio" class="radiostandardInput radioInput" name="textSize">
+                    <label for="">
+                        <span class="radioInputSpan">Standard</span>
+                    </label>
+                </div>
+                <div class="TextLargeDiv radioDiv">
+                    <input type="radio" class="radiolargeInput radioInput" name="textSize">
+                    <label for="">
+                        <span class="radioInputSpan">Large</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="settings settingsWidth">
+                <span class="settings1 rightSideBarWidthSpan">Width</span>
+            </div>
+            <div class="settingsRadio">
+                <div class="TextSmallRadioDiv radioDiv">
+                    <input type="radio" class="radiosmallInput radioInput" name="widthSize">
+                    <label for="">
+                        <span class="radioInputSpan">Standard</span>
+                    </label>
+                </div>
+                <div class="TextStandardRadioDiv radioDiv">
+                    <input type="radio" class="radiostandardInput radioInput" name="widthSize">
+                    <label for="">
+                        <span class="radioInputSpan">Wide</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="settings settingsTheme">
+                <span class="settings1 rightSideBarThemeSpan">Color (beta)</span>
+            </div>
+            <div class="settingsRadio">
+                <div class="TextSmallRadioDiv radioDiv">
+                    <input type="radio" class="radiosmallInput radioInput" name="themeColor">
+                    <label for="">
+                        <span class="radioInputSpan">Automatic</span>
+                    </label>
+                </div>
+                <div class="TextStandardRadioDiv radioDiv">
+                    <input type="radio" class="radiostandardInput radioInput" name="themeColor">
+                    <label for="">
+                        <span class="radioInputSpan">Light</span>
+                    </label>
+                </div>
+                <div class="TextStandardRadioDiv radioDiv">
+                    <input type="radio" class="radiostandardInput radioInput" name="themeColor">
+                    <label for="">
+                        <span class="radioInputSpan">Dark</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+    <script src="https://kit.fontawesome.com/5f28126ee3.js" crossorigin="anonymous"></script>
+</html>

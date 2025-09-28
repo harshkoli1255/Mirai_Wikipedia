@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child1{
+    /* border: 2px solid red; */
+    width: 817px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#wikipediaLogo{
+    width: 46px;
+    /* border: 2px solid rgb(41, 25, 108); */
+}
+
+#menuIcon{
+    font-size: 24px;
+}
+.logoname{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 248px;
+    /* border: 2px solid goldenrod; */
+}
+.wikipediaName{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 94%;
+}
+
+#wikipediaName{
+    width: 182px;
+}
+#wikipediaBottomName{
+    width: 165px;
+}
+
+.menu{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.menu:hover{
+    background-color: rgba(58, 114, 160, 0.161);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 470px;
+    position: relative;
+    /* border: 2px solid hotpink; */
+}
+#searchIcon{
+    position: absolute;
+    font-size: 23px;
+    left: 12px;
+}
+#searchBar{
+    width: 478px;
+    height: 41px;
+    padding: 0px 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    /* border: 1.7px solid rgba(40, 39, 39, 0.638); */
+}
+#searchButton{
+    height: 40px;
+    width: 91px;
+    border-radius: 4px;
+    font-size: 17px;
+    /* border: 1.7px solid rgb(40, 39, 39, 0.638); */
+    /* outline: none; */
+    /* border: none; */
+    position: absolute;
+    right: 0px;
+    background-color: #f8f9fa;
+}
+.nameAndSearchContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 754px;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+#searchButton:hover{
+    cursor: pointer;
+    background-color: #c7cbd0;
+    transition: 0.2s ease-in-out;
+}
+
+.child2{
+    /* border: 2px solid rgb(23, 121, 111); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 100%;
+    margin-right: 20px;
+}
+.child2 a{
+    font-size: 17px;
+    /* color: blue; */
+    text-decoration: none;
+}
+.child2 a:hover{
+    text-decoration: underline;
+}
+#ellipsisIcon{
+    font-size: 24px;
+    padding: 10px;
+}
+#ellipsisIcon:hover{
+    background-color: rgba(142, 147, 151, 0.161);
+    border-radius: 5px;
+    cursor: pointer;
+}
