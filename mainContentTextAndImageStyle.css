@@ -151,8 +151,8 @@
     flex-direction: column;
     align-items: center;
     /* gap: 3%; */
-    justify-content: space-evenly;
-    height: 1189px;
+    /* justify-content: space-evenly; */
+    height: 2440px;
 }
 
 .h120px{
@@ -288,11 +288,12 @@
     padding: 5px;
     background-color: #f8f9fa;
     /* border: 2px solid black; */
+    margin-top: 20px;
 }
 .image{
     display: flex;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.145); */
-    border: 0.4px solid rgba(0, 0, 0, 0.237);
+    border: 0.4px solid rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     width: 100%;
